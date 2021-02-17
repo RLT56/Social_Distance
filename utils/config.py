@@ -1,14 +1,13 @@
-# base path to YOLO directory
+# Model directory
 MODEL_PATH = "model"
 
-# initialize minimum probability to filter weak detections along with
-# the threshold when applying non-maxima suppression
+# Minimum probability to filter  detections
+# Threshold when applying non-maxima suppression
 MIN_CONF = 0.3
 NMS_THRESH = 0.3
 
-# boolean indicating if NVIDIA CUDA GPU should be used
+# CUDA GPA Usage
 USE_GPU = False
 
-# define the minimum safe distance (in pixels) that two people can be
-# from each other
+# Minimum safe distance in pixels
 MIN_DISTANCE = 50
